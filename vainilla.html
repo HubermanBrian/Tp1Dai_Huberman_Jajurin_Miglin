@@ -8,10 +8,10 @@
 <body>
     <form id="formulario">
         <label for="Numero">Ingrese un numero dentro del rango 1 a 100:</label>
-        <input type="number" id="Numero" name="Numero" onkeyup="ValidarNumero()">
+        <input type="number" id="Numero" name="Numero" onchange="ValidarNumero()" onkeyup="ValidarNumero()" onkeydown="if (event.key == 'Enter'){NumCorrecto()}">
         <button id="button" type="button" onclick="NumCorrecto()">Enviar</button>
     </form>
-    <button id="button1" type="button" onclick="NumCorrecto()">Jugar de nuevo</button>
+    <button id="button1" type="button" onclick="JuegoNuevo()">Jugar de nuevo</button>
     <div id="cuentaIntentos"></div>
     <script src="index.Js"></script>
 </body>
