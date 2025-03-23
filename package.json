@@ -1,0 +1,19 @@
+{
+  "name": "code.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HubermanBrian/Tp1Dai_Huberman_Jajurin_Miglin.git"
+  },
+  "author": "Huberman_Miglin_Jajurin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HubermanBrian/Tp1Dai_Huberman_Jajurin_Miglin/issues"
+  },
+  "homepage": "https://github.com/HubermanBrian/Tp1Dai_Huberman_Jajurin_Miglin#readme"
+}
