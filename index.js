@@ -6,7 +6,7 @@ let intentos = 0;
 const diferencia = 15;
 let msj = document.getElementById("cuentaIntentos");
 boton1.disabled = true;
-boton.style.visibility = "hidden"; 
+boton1.style.visibility = "hidden"; 
 
 function ValidarNumero() {
     const valor = parseInt(numero.value);
