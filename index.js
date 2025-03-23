@@ -72,4 +72,6 @@ function JuegoNuevo()
     intentos = 0;
     numero.value = 0;
     msj.innerHTML = `intentos: ${intentos}`;
+    boton1.disabled = true;
+    boton1.style.visibility = "hidden"; 
 }

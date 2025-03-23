@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form id="formulario">
-        <label for="Numero">Ingrese un numero dentro del rango 1 a 100:</label>
+        <label for="Numero">Ingrese un número dentro del rango 1 a 100:</label>
         <input type="number" id="Numero" name="Numero" onchange="ValidarNumero()" onkeyup="ValidarNumero()" onkeydown="if (event.key == 'Enter'){NumCorrecto()}">
         <button id="button" type="button" onclick="NumCorrecto()">Enviar</button>
+        <button id="button1" type="button" onclick="JuegoNuevo()">Jugar de nuevo</button>
+        <div id="cuentaIntentos"></div>
     </form>
-    <button id="button1" type="button" onclick="JuegoNuevo()">Jugar de nuevo</button>
-    <div id="cuentaIntentos"></div>
-    <script src="index.Js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
